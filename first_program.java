@@ -3,3 +3,6 @@ class Main {
         System.out.println("Start small. Ship something.");
     }
 }
+
+
+Waiting for update coming soon...
