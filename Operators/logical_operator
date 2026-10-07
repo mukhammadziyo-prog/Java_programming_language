@@ -1,0 +1,25 @@
+public class main {
+    public static void main(String[]args) {
+
+        System.out.println(34 < 54);
+        System.out.println(100 > 102);
+
+        // 34 kichkina 54 dan "True"
+        //100 kotta 102 dan "False"
+
+
+            //logical operators
+
+        int x = 4;
+        // and operator
+        System.out.println(x < 5 && x < 10);
+
+        //or operator
+
+        System.out.println(x < 5 || x > 4);
+
+        //not operator
+        System.out.println(!(x < 5 && x < 10));
+        
+    }
+}
