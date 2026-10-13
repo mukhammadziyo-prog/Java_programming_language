@@ -14,3 +14,10 @@ Escape character	Result	Description
 The sequence \"  inserts a double quote in a string:
 
 String txt = "We are the so-called \"Vikings\" from the north.";
+
+
+The sequence \'  inserts a single quote in a string:
+
+
+Example
+String txt = "It\'s alright.";
