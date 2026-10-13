@@ -21,3 +21,9 @@ The sequence \'  inserts a single quote in a string:
 
 Example
 String txt = "It\'s alright.";
+
+The sequence \\  inserts a single backslash in a string:
+
+Example
+String txt = "The character \\ is called backslash.";
+
