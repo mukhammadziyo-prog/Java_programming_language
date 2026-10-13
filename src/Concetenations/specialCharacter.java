@@ -27,3 +27,16 @@ The sequence \\  inserts a single backslash in a string:
 Example
 String txt = "The character \\ is called backslash.";
 
+Other common escape sequences that are valid in Java are:
+
+
+
+Code	Result
+\n	    New Line
+\t	    Tab
+\b	    Backspace
+\r	    Carriage Return
+\f	    Form Feed
+
+
+
