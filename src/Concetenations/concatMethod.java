@@ -1,6 +1,9 @@
-String firstName = "John ";
-String lastName = "Doe";
-System.out.println(firstName.concat(lastName));
+public class concatMethod {
+    public static void main(String[]agrs) {
 
-void main() {
+
+        String firstName = "John ";
+        String lastName = "Doe";
+        System.out.println(firstName.concat(lastName));
+    }
 }

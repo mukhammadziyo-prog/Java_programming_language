@@ -1,5 +1,5 @@
 
-Finding a Character in a String
+/* Finding a Character in a String
 The indexOf() method returns the index (the position) of the first occurrence of a specified text in a string (including whitespace):
 
 Example
@@ -14,6 +14,14 @@ Java counts positions from zero.
 You can use the charAt() method to access a character at a specific position in a string:
 
 Example
-String txt = "Hello";
-System.out.println(txt.charAt(0));  // H
-System.out.println(txt.charAt(4));  // o
+ */
+
+public class findingCharacterInString {
+    public static void main(String[]args) {
+
+        String txt = "Hello";
+        System.out.println(txt.charAt(0));  // H
+        System.out.println(txt.charAt(4));
+
+    }
+}// o

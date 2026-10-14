@@ -1,4 +1,4 @@
-Strings - Special Characters
+/* Strings - Special Characters
 Because strings must be written within quotes, Java will misunderstand this string, and generate an error:
 String txt = "We are the so-called "Vikings" from the north.";
 
@@ -38,5 +38,5 @@ Code	Result
 \r	    Carriage Return
 \f	    Form Feed
 
-
+ */
 
