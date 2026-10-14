@@ -1,0 +1,50 @@
+public class main {
+    public static void main(String[]args) {
+
+        //assignment operators
+
+        int a = 10;
+            System.out.println(a);
+
+        //plus equal operator
+
+        int b = 5;
+             System.out.println(b);
+        // 5 ga 4 ni qoshadi va jovobi 9 boladi
+        b += 4;
+            System.out.println(b);
+
+        //minus equals operator
+
+        int c = 40;
+            System.out.println(c);
+        // 40 dan 20 nani ayirish jovobi 20 boladi
+        
+        c -= 20;
+            System.out.println(c);
+
+        //other operators 
+
+        int d = 30;
+        int e = 20;
+        int f = 40;
+
+            System.out.println(d);
+            System.out.println(e);
+            System.out.println(f);
+
+        d *= 2;
+        e /= 10;
+        f %= 3;
+
+        //30 ni 2 ga kopaytirdik
+        //20 ni 10 boldik
+        //40 ni 3 ga boldik va qolgan qoldiqini console ga chiqardik
+        
+
+            System.out.println(d);
+            System.out.println(e);
+            System.out.println(f);
+        
+    }
+}
