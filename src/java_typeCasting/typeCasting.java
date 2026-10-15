@@ -1,4 +1,4 @@
-public class Main {
+public class typeCasting {
         public static void main(String[]args) {
 
         double mydouble = 9.34;

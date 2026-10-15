@@ -1,4 +1,4 @@
-public class main {
+public class operators {
     public static void main(String []args) {
             //pluss operator
         

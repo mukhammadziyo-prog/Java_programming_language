@@ -1,6 +1,6 @@
-import java.util.Scanner;
-public class boolean{
-    public static void main(String[]args) {
+/* import java.util.Scanner;
+public class boolean {
+    public static void main (String[]args) {
         
         Scanner scanner = new Scanner (System.in);
         int votingAge = 18;
