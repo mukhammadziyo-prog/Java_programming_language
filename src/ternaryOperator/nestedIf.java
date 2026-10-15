@@ -6,9 +6,9 @@ public class nestedIf{
         if(ball > 50) {
             System.out.println("Siz imtihondan ottingiz!");
 
-            if(ball >= 90)
+            if(ball >= 90) {
                 System.out.println("Siz grand yuttingiz!");
-
+            }
         } else {
             System.out.println("imtihondan ota olmadingiz");
         }
