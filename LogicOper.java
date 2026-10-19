@@ -15,5 +15,7 @@ public class LogicOper {
 
         boolean canEnter = (age >= 18 || hasParents) && hasTicket;
             System.out.println("Sizning kirish imkoningiz: "+ canEnter);
+scanner.close();
     }
+
 }

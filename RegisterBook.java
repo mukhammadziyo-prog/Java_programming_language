@@ -18,5 +18,6 @@ public class RegisterBook {
         boolean canDownload = isRegistered && (isPremium || isfree) && !isBlocked;
 
         System.out.println("Can i dowload the book: "+ canDownload);
+scanner.close();
     }
 }
