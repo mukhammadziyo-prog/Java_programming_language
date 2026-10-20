@@ -31,9 +31,17 @@ public class SwitchRestaurant {
                 break;
             case 2:
                 System.out.println("==== Please note that why you did not like our servise. We will try our best THANK YOU! =====");
+                break;
+            default:
+                System.out.println("Please, enter valid number!");
+
+                scanner.close();
+                System.exit(0);
         }
 
-        scanner.close();
-
+        /* scanner.close(); buni ham qoshish mumkin agar tepada scanner closa va System.exit bolmasa yani ,
+        agar program yana qoshilsa va xato kiritilsa ham davom etishi kerek bolsa scanner 42 qator ochiladi
+                va scanner.exit(0) olib tashlanadi.
+        */
     }
 }
