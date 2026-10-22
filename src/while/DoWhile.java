@@ -13,5 +13,6 @@ public class DoWhile{
             }while(age < 0);
 
         System.out.println("You are "+ age + " years old");
+        scanner.close();
     }
 }
