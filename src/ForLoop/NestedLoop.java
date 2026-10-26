@@ -7,10 +7,10 @@ public class NestedLoop {
             int column;
             char symbol;
 
-        System.out.print("Enter the # rows: ");
+        System.out.print("Enter the rows: ");
         row = scanner.nextInt();
 
-        System.out.print("Enter the # column: ");
+        System.out.print("Enter the column: ");
         column = scanner.nextInt();
 
         System.out.print("Enter the symbol to use: ");
@@ -18,7 +18,7 @@ public class NestedLoop {
 
         for(int i = 0; i < row;i++){
             for(int j = 0; j< column;j++){
-                System.out.print(symbol);
+                System.out.print(symbol + " ");
             }
             System.out.println();
         }
