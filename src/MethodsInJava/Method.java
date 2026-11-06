@@ -2,13 +2,13 @@
 // Inside main, call the myMethod() method:
 
 public class Method {
-    static void myMethod() {
-        System.out.println("I just got executed!");
+    static void name(){
+        System.out.println("What is your name?");
     }
 
-    public static void main(String[] args) {
-        myMethod();
+    public static void main(String[] args){
+        name();
     }
 }
 
-// Outputs "I just got executed!"
+// Outputs "What is your name?"
