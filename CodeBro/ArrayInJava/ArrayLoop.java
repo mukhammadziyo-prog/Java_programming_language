@@ -12,6 +12,7 @@ public class ArrayLoop{
         int[] sonlar = {63,55,93,10};
         int result = 0;
             for(int son : sonlar){ // : sonlar massividagi har bir son uchun
+                // Bu yerda : belgisi o'zbekchada "ichidagi har bir" degan ma'noni anglatadi.
 
                 result += son; // yigindi = yigindi + son;
             }
