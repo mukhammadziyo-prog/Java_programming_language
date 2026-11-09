@@ -1,10 +1,16 @@
 public class MethodParametrs {
-    public static void main(String[]args){
+    public static void main(String[] args){
 
-        multiParametr("Muhammadziyo " , 33);
+        multiParametr("Muhammadziyo", 33 , true);
 
     }
-    static void multiParametr(String fname, int age){
-        System.out.println(fname + "Niyatov " + age + " years old");
+
+    static void multiParametr(String name , int age , boolean isStudent){
+        System.out.println(name + " "+ age + " years old");
+        if(isStudent){
+            System.out.println(name + " is student");
+        } else {
+            System.out.println(name + " is not student");
+        }
     }
 }
