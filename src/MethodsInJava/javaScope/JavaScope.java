@@ -5,5 +5,7 @@ public class JavaScope {
             int a = 1;
             System.out.println(a);
         }
+        int a = 5;
+        System.out.println(a);
     }
 }
