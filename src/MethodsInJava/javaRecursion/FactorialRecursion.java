@@ -8,8 +8,6 @@ public class FactorialRecursion {
         System.out.printf("The factorial of %d is: %d%n", num1, factorial(num1));
 
 
-
-
         scanner.close();
     }
 
