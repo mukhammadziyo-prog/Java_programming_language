@@ -8,6 +8,6 @@ public class MultipleObjects {
         MultipleObjects myObj2 = new MultipleObjects();
         MultipleObjects myObj3 = new MultipleObjects();
 
-        System.out.println();
+        System.out.println("Name: " + myObj1.name + "\n" + "Age: "+ myObj1.age + "\n"+ "Is a Student: "+ myObj1.isStudent);
     }
 }
