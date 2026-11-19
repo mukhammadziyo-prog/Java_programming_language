@@ -1,12 +1,12 @@
 public class Car {
     String make = "Ford";
     String model = "Mustang";
-    int year = 2025;
+    int year = 2025;                            // attributes
     double price = 56000.99;
     boolean isRunning = false;
 
 
-    void start(){
+    void start(){               //methods
         isRunning = true;
         System.out.println("You start the engine");
     }
