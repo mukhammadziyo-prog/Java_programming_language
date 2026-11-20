@@ -1,7 +1,6 @@
 public class Main{
-    public static void main(String[] args){
-
-        Car car = new Car();        //object
+    public static void main(String[]args){
+        Car car = new Car();
 
 
         //System.out.println(car.make);
@@ -16,7 +15,10 @@ public class Main{
         //car.stop();
         //System.out.println(car.isRunning);
 
+
+        car.start();
         car.drive();
-        car.brake();
+        car.pricee();
+        car.stop();
     }
 }
