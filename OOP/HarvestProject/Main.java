@@ -98,7 +98,9 @@ public class Main {
                     isRunning = false;
                     break;
                 case 2:
-                    System.out.println("Vegetables are coming soon...");
+                    System.out.println("\nHere Are Our Vegetables: ");
+
+                    showVegetables();
                     isRunning = false;
                     break;
                 case 3:
