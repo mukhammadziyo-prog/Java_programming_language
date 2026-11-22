@@ -5,22 +5,25 @@ import java.util.Scanner;
 public class Main {
 
     static Scanner scanner = new Scanner(System.in);
-    static Fruits product = new Fruits();
+    static Fruits product_obj = new Fruits();
+    static Vegetables vegetables_obj = new Vegetables();
 
     static void pickFruit() {
         System.out.print("Please, Pick One Fruit(only accept numbers): ");
         int pickFruit = scanner.nextInt();
         if (pickFruit == 1) {
-            System.out.println("Accepted. You picked: " + product.fruits[0]);
+            System.out.println("Accepted. You picked: " + product_obj.fruits[0]);
         } else if (pickFruit == 2) {
-            System.out.println("Accepted. You picked: " + product.fruits[1]);
+            System.out.println("Accepted. You picked: " + product_obj.fruits[1]);
         } else if (pickFruit == 3) {
-            System.out.println("Accepted. You picked: " + product.fruits[2]);
+            System.out.println("Accepted. You picked: " + product_obj.fruits[2]);
         } else if (pickFruit == 4) {
-            System.out.println("Accepted. You picked: " + product.fruits[3]);
+            System.out.println("Accepted. You picked: " + product_obj.fruits[3]);
         } else if (pickFruit == 5) {
-            System.out.println("Accepted. You picked: " + product.fruits[4]);
-        } else {
+            System.out.println("Accepted. You picked: " + product_obj.fruits[4]);
+        } else if (pickFruit == 6){
+            System.out.println("Accepted. You picked: " + product_obj.fruits[5]);
+        }else {
             System.out.println("Please, Pick Valid Fruit! ");
         }
     }
@@ -50,8 +53,14 @@ public class Main {
     }
 
     static void showFruit() {
-        for (int i = 0; i < product.fruits.length; i++) {
-            System.out.println((i + 1) + ". " + product.fruits[i]);
+        for (int i = 0; i < product_obj.fruits.length; i++) {
+            System.out.println((i + 1) + ". " + product_obj.fruits[i]);
+        }
+    }
+
+    static void showVegetables() {
+        for(int i = 0;i < vegetables_obj.vegetables.length; i++){
+            System.out.println((i + 1) + ". " + vegetables_obj.vegetables[i]);
         }
     }
 
