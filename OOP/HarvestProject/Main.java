@@ -29,6 +29,31 @@ public class Main {
     }
 
 
+    static void pickVegetables() {
+        System.out.print("Please, Pick One Vegetable(only accept numbers): ");
+        int pickVegetable = scanner.nextInt();
+        if (pickVegetable == 1) {
+            System.out.println("Accepted. You picked: " + vegetables_obj.vegetables[0]);
+        } else if (pickVegetable == 2) {
+            System.out.println("Accepted. You picked: " + vegetables_obj.vegetables[1]);
+        } else if (pickVegetable == 3) {
+            System.out.println("Accepted. You picked: " + vegetables_obj.vegetables[2]);
+        } else if (pickVegetable == 4) {
+            System.out.println("Accepted. You picked: " + vegetables_obj.vegetables[3]);
+        } else if (pickVegetable == 5) {
+            System.out.println("Accepted. You picked: " + vegetables_obj.vegetables[4]);
+        } else if (pickVegetable == 6){
+            System.out.println("Accepted. You picked: " + vegetables_obj.vegetables[5]);
+        } else if(pickVegetable == 7) {
+            System.out.println("Accepted. You picked: "+ vegetables_obj.vegetables[6]);
+        }else if(pickVegetable == 8){
+            System.out.println("Accepted. You picked: " + vegetables_obj.vegetables[7]);
+        } else {
+            System.out.println("Please, choose a valid Vegetable");
+        }
+    }
+
+
     static void Box() {
         while (true) {
             System.out.print("Enter How Many Boxes Do You Need: ");
@@ -95,12 +120,16 @@ public class Main {
                     showFruit();
                     pickFruit();
                     Box();
+
                     isRunning = false;
                     break;
                 case 2:
                     System.out.println("\nHere Are Our Vegetables: ");
 
                     showVegetables();
+                    pickVegetables();
+                    Box();
+
                     isRunning = false;
                     break;
                 case 3:
