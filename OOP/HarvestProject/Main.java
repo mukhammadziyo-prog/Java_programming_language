@@ -7,20 +7,22 @@ public class Main {
     static Scanner scanner = new Scanner(System.in);
     static Fruits product = new Fruits();
 
-    static void pickFruit(){
+    static void pickFruit() {
         System.out.print("Please, Pick One Fruit(only accept numbers): ");
         int pickFruit = scanner.nextInt();
-            if(pickFruit == 1){
-                System.out.println("Accepted. You picked: " + product.fruits[0]);
-            } else if(pickFruit == 2){
-                System.out.println("Accepted. You picked: "+ product.fruits[1]);
-            } else if(pickFruit == 3){
-                System.out.println("Accepted. You picked: "+ product.fruits[2]);
-            } else if(pickFruit == 4){
-                System.out.println("Accepted. You picked: " + product.fruits[3]);
-            } else {
-                System.out.println("Please, Pick Valid Fruit! ");
-            }
+        if (pickFruit == 1) {
+            System.out.println("Accepted. You picked: " + product.fruits[0]);
+        } else if (pickFruit == 2) {
+            System.out.println("Accepted. You picked: " + product.fruits[1]);
+        } else if (pickFruit == 3) {
+            System.out.println("Accepted. You picked: " + product.fruits[2]);
+        } else if (pickFruit == 4) {
+            System.out.println("Accepted. You picked: " + product.fruits[3]);
+        } else if (pickFruit == 5) {
+            System.out.println("Accepted. You picked: " + product.fruits[4]);
+        } else {
+            System.out.println("Please, Pick Valid Fruit! ");
+        }
     }
 
 
