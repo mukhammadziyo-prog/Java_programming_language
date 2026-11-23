@@ -1,10 +1,7 @@
 package TestPro3;
-import java.util.Scanner;
 public class Car {
-    Scanner scanner = new Scanner(System.in);
-
-    String carName = "GLE Coupe";
-    double carPrice = 110000.99;
+    String carName;
+    double carPrice;
 
     public boolean isRunning(boolean isEngineRunning){
         if(isEngineRunning){
