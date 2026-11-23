@@ -1,4 +1,6 @@
-public class Car{
+package TestPro4;
+
+public class Car {
     String make = "Mercedes";
     String model = "GLE Coupe";
     double price = 110000.99;
