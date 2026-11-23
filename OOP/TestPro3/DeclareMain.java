@@ -8,13 +8,17 @@ public class DeclareMain {
 
         Car myCar1 = new Car();
 
+        System.out.print("Enter your Car name: ");
         myCar1.carName = scanner.nextLine();
         System.out.println("The model: " + myCar1.carName);
+
+        System.out.print("Enter your Car Price: ");
+        myCar1.carPrice = scanner.nextDouble();
         System.out.println("The price of the car: " + myCar1.carPrice);
 
         myCar1.isRunning(false);
 
 
-        s
+
     }
 }
