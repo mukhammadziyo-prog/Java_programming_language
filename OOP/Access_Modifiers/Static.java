@@ -6,7 +6,7 @@ public class Static {
     }
 
     // Main method
-        static void main(String[] args) {
+    static void main(String[] args) {
         myStaticMethod();         // Call the static method
         Static.myStaticMethod();    // Or call it using the class name
     }
