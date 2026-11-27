@@ -38,3 +38,14 @@ myObj.name = "John";  // error
 System.out.println(myObj.name); // error
 }
 }
+
+Visualize Encapsulation
+Click "Next step" to see how encapsulation protects the age of a Dog object:
+
+Code
+
+1Dog myDog = new Dog();
+2myDog.setAge(4);
+3myDog.setAge(-3);
+4System.out.println(myDog.getAge());
+5myDog.age = -3;  // Error
